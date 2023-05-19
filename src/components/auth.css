@@ -1,0 +1,62 @@
+.auth {
+    display: flex;
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    width: 600px;
+    height: 315px;
+    background-color: white;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20px;
+}
+.form input {
+    margin: 15px;
+    height: 40px;
+}
+.form button {
+    width: 15%;
+    float: right;
+    align-self: self-end;
+    margin: 20px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    height: 37px;
+    line-height: 37px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+    background-color: #05cd51;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    transition: box-shadow .18s ease-out,background .18s ease-out,color .18s ease-out;
+}
+.form button:focus-visible {
+    box-shadow: 0 0 0 3px lightskyblue;
+}
+.form button:hover {
+    box-shadow: 0 1px 1px 0  #cfcfcf, 0 2px 5px 0  #cfcfcf;
+}
+.form button:active {
+    background-color: #058c38 !important;
+}
+.form button:disabled {
+    background-color: #aed2bc;
+    color: #444;
+    pointer-events: none;
+}
+.error {
+    align-self: center;
+    color: red;
+    height: 18px;
+}
