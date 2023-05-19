@@ -1,0 +1,15 @@
+.msg {
+    height: 72px;
+    border-bottom: 1px solid #767676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+.msg:hover {
+    background-color: #f5f6f6;
+}
+.msg:focus {
+    background-color: black;
+}

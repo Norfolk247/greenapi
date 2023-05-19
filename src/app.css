@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+.app {
+    margin: 20px auto;
+    height: 95vh;
+    width: 95%;
+    position: relative;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #767676;
+}
+input:focus {
+    outline: none;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
